@@ -24,9 +24,9 @@ const tThumbnailComponent = Vue.extend({
 
                 <div class="modal-body">
                     <slot name="body">
-                        <img src="./img/prev.png" v-on:click="gotoPrevImg" class="t-thumbnail-button">
+                        <img src="./img/prev.png" v-on:click="gotoPrevImg" class="t-thumbnail-left-button">
                         <img :src="getImgAddress(currentId)"/>
-                        <img src="./img/next.png" v-on:click="gotoNextImg" class="t-thumbnail-button">
+                        <img src="./img/next.png" v-on:click="gotoNextImg" class="t-thumbnail-right-button">
                     </slot>
                 </div>
 

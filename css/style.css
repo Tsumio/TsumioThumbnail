@@ -16,7 +16,19 @@ img.t-thumbnail-img:hover {
     opacity: .5;
 }
 
-img.t-thumbnail-button {
+img.t-thumbnail-left-button {
+    position: absolute;
+    top: 50%;
+    left:0%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    opacity:0;
+}
+
+img.t-thumbnail-right-button {
     position: absolute;
     top: 50%;
     -ms-transform: translate(-50%,-50%);
@@ -27,7 +39,11 @@ img.t-thumbnail-button {
     opacity:0;
 }
 
-img.t-thumbnail-button:hover {
+img.t-thumbnail-left-button:hover {
+    opacity:0.7;
+}
+
+img.t-thumbnail-right-button:hover {
     opacity:0.7;
 }
 
